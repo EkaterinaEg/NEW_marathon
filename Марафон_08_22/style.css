@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/'Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/'Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #E5E5E5;
+}
+h1 {
+    visibility: hidden;
+}
+.logo a,
+nav {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.promo {
+    background-image: url(img/1_background_header.jpg);
+    width: 1400px;
+    height: 715px;
+}
+.promo h2 {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;;
+}
+p {
+    font-weight: normal;
+    font-size: 18px;
+}
+.achievements {
+    background-color: #8D7370;
+}
+.team-description {
+    background-color: #E2C4BA;
+}
+.request {
+    background-color: #8D7370;
+}
+section, 
+footer {
+    background-color: #EFE6E4;
+}
